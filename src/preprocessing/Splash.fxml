@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" blendMode="SRC_ATOP" prefHeight="281.0" prefWidth="482.0" style="-fx-background-color: #00a0ff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Line endX="100.0" layoutX="241.0" layoutY="38.0" startX="-100.0" stroke="#ebe7e7" strokeWidth="3.0" />
+      <Line endX="100.0" layoutX="241.0" layoutY="235.0" startX="-100.0" stroke="#ebe7e7" strokeWidth="3.0" />
+      <VBox alignment="CENTER" layoutX="72.0" layoutY="70.0">
+         <children>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="71.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Offline Signature Verification " textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="10.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="System Preprocessing Techniques" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <HBox layoutX="241.0" layoutY="187.0" spacing="5.0">
+         <children>
+            <Label layoutX="241.0" layoutY="187.0" text="Supervised by" textFill="#f2eded">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="315.0" layoutY="187.0" text="Engr J.B Ogunsakin" textFill="#f2eded">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
